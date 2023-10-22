@@ -6,12 +6,180 @@
 	<meta name="description" content="TP3">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./style/css/custom-bootstrap.css">
-	<link rel="icon" href="img/favicon.ico">
+	<link rel="icon" href="/img/favicon.ico">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
+<body>
+    <header>
+        <div id="mainNavigation">
+            <nav role="navigation">
+                <div class="py-3 text-center border-bottom">
+                    <a class="navbar-brand" href="#"><img src="/img/logo_diving_club.svg" alt="" class="invert img-fluid"></a>
+                </div>
+            </nav>
+            <div class="navbar-expand-md">
+            <div class="navbar-dark text-center my-2">
+                <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> <span class="align-middle"></span>
+                </button>
+            </div>
+            <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Passion</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </header>
+	<main>
+		<section class="container espace-top">
+            <h2 class=" fs-2 card-title text-center mb-3">Nos experts plongeurs</h2>
+            <table class="table align-middle mb-0 bg-white my-5">
+                <thead class="bg-dark">
+                  <tr>
+                    <th>Name</th>
+                    <th>Title</th>
+                    <th>Status</th>
+                    <th>Position</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <img
+                            src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                            class="rounded-circle"
+                            />
+                        <div class="ms-3">
+                          <p class="fw-bold mb-1">John Doe</p>
+                          <p class="text-muted mb-0">john.doe@gmail.com</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="fw-normal mb-1">Software engineer</p>
+                      <p class="text-muted mb-0">IT department</p>
+                    </td>
+                    <td>
+                      <span class="badge badge-success rounded-pill d-inline">Active</span>
+                    </td>
+                    <td>Senior</td>
+                    <td>
+                      <button type="button" class="btn btn-link btn-sm btn-rounded">
+                        Edit
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <img
+                            src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                            class="rounded-circle"
+                            alt=""
+                            style="width: 45px; height: 45px"/>
+                        <div class="ms-3">
+                          <p class="fw-bold mb-1">Alex Ray</p>
+                          <p class="text-muted mb-0">alex.ray@gmail.com</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="fw-normal mb-1">Consultant</p>
+                      <p class="text-muted mb-0">Finance</p>
+                    </td>
+                    <td>
+                      <span class="badge badge-primary rounded-pill d-inline">Onboarding</span>
+                    </td>
+                    <td>Junior</td>
+                    <td>
+                      <button
+                              type="button"
+                              class="btn btn-link btn-rounded btn-sm fw-bold"
+                              data-mdb-ripple-color="dark">
+                        Edit
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <img
+                            src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                            class="rounded-circle"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                            />
+                        <div class="ms-3">
+                          <p class="fw-bold mb-1">Kate Hunington</p>
+                          <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="fw-normal mb-1">Designer</p>
+                      <p class="text-muted mb-0">UI/UX</p>
+                    </td>
+                    <td>
+                      <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+                    </td>
+                    <td>Senior</td>
+                    <td>
+                      <button
+                              type="button"
+                              class="btn btn-link btn-rounded btn-sm fw-bold"
+                              data-mdb-ripple-color="dark"
+                              >
+                        Edit
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+	</main>
+
+	<footer class="border-top">
+        <div class="container text-center">
+			<div class="py-3">
+                <a href="#"><img src="/img/logo_diving_club.svg" alt="logo de Diving Club" class="logo"></a>
+            </div>
+			<div>
+				<a href="#"><img src="img/logo_facebook.png" alt="Logo Facebook"></a>
+				<a href="#"><img src="img/logo_linkedin.png" alt="Logo Linkedin"></a>
+				<a href="#"><img src="img/logo_twitter.png" alt="Logo Twitter"></a>
+				<a href="#"><img src="img/Logo_instagram.png" alt="Logo Instagram"></a>
+			</div>
+            <div class="row flex-sm-column flex-md-row my-3">
+                <div class="col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                    <a href="tel:+14181234567">
+                        <img src="img/icone_telephone.png" alt="Logo telephone">
+                        418-123-4567
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+                    <a href="mailto:cegep@troisrivieres.ca">
+                        <img src="img/logo_courriel.png" alt="Logo mail">
+                        cegep@troisrivieres.ca
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body> 
+</html>
 
 
 
