@@ -1,5 +1,184 @@
 //Écraser les variables par défaut AVANT d'importer Bootstrap
 
+$primary: rgb(122, 218, 255);
+$neutral: rgb(255, 255, 255);
+$secondaire :rgb(1, 0, 1);
+
+
 @import "../../node_modules/bootstrap/scss/bootstrap"; //import de Bootstrap
 
-//Ajouter vottre code Sass personnalisé ici!
+
+
+
+/* Navigation Menu Bootstrap */
+#mainNavigation a {
+    font-family: 'Cabin', sans-serif;
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    text-shadow:2px 2px 3px rgba(0,0,0,0.4)
+  }
+
+  .navbar-toggler-icon {min-height: 40px !important;
+    min-width: 40px !important;
+
+  }
+
+  a.dropdown-toggle{
+    color: $neutral !important;
+  }
+  
+.active{
+    color: $primary !important;
+  }
+
+  .nav-item a{
+    color: $neutral;
+    margin: 0 30px 0 30px;
+  }
+
+  .nav-item a:hover {
+    color: $primary !important;
+    padding: 20px 10px 5px 10px;
+    border-bottom : 2px $primary solid;
+    transition: all 0.3s linear;
+  }
+
+  .nav-item{
+    min-width:13vw;
+  }
+
+  #mainNavigation {
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    padding-bottom:100px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  }
+  #navbarNavDropdown.collapsing .navbar-nav,
+  #navbarNavDropdown.show .navbar-nav{
+    
+    padding:12px;
+  }
+
+
+
+
+ /* Typologie & variables couleurs Bootstrap*/
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary !important;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+p {
+    color: $neutral;
+    font-family:Verdana, Tahoma, sans-serif;
+  }
+
+
+
+
+ /* Personnalisation carousel Bootstrap*/
+
+  .carousel-indicators button {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+    margin: 0.6rem  !important;  
+  }
+  
+  .carousel-indicators {
+    bottom: -70px;
+  }
+
+  .carousel-control-prev{
+    left: -80px;
+  }
+
+  .carousel-control-next{
+    right: -80px;
+  }
+
+
+
+
+   /* Section bg video*/
+
+  .video-section {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+
+
+
+  /* Personnalisation des Card Bootstrap*/
+
+.card {
+background-color: $secondaire;
+transition: transform .8s;
+}
+
+.card:hover{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.15);
+}
+
+
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mask-custom {
+  background: rgba(24, 24, 16, .2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mask-custom {
+  background: rgba(24, 24, 16, .2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}

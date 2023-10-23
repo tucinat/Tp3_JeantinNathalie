@@ -1,15 +1,26 @@
 
 
+
 body {
-    background-image: linear-gradient(rgba(7, 85, 158, 0.4), rgba(122, 218, 255, 0.1)),
-                      url('../../img/bg_site_tuba_diving.png');
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    line-height: 1.4;
-  }
+  background-image: linear-gradient(rgba(7, 85, 158, 0.4), rgba(122, 218, 255, 0.1)),
+                    url('../../img/bg/bg_site_tuba_diving.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  line-height: 1.4;
+}
 
+#footer {
+  position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  padding-bottom:10px;
+  background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
+}
   .espace-top {
     margin-top: 17vh;
   }
