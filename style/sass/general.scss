@@ -1,0 +1,26 @@
+
+
+body {
+    background-image: linear-gradient(rgba(7, 85, 158, 0.4), rgba(122, 218, 255, 0.1)),
+                      url('../../img/bg_site_tuba_diving.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    line-height: 1.4;
+  }
+
+
+  .espace-top {
+    margin-top: 17vh;
+  }
+
+  .espace-bottom {
+    margin-bottom: 17vh;
+  }
+
+  .fade-in-image { animation: fadeIn 7s; }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
