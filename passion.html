@@ -6,18 +6,213 @@
 	<meta name="description" content="TP3">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./style/css/custom-bootstrap.css">
+	<link rel="stylesheet" href="./style/css/general.css" />
 	<link rel="icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
-    
-
-
-	
-
+    <header>
+        <div id="mainNavigation">
+            <nav role="navigation">
+                <div class="py-3 text-center border-bottom">
+                    <a class="navbar-brand fade-in-image" href="#"><img src="/img/logo_diving_club.svg" alt="logo de Diving Club" class="invert img-fluid"></a>
+                </div>
+            </nav>
+            <div class="navbar-expand-md">
+                <div class="navbar-dark text-center my-2">
+                    <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <span class="align-middle"></span>
+                    </button>
+                </div>
+                <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Passion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>    
+    <main>
+        <section class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 col-lg-6 mb-3 mx-5">
+                    <div class="card bg-transparent card-body d-flex flex-wrap justify-content-center border-0">
+                        <h1 class="fs-1 card-title text-center mb-3">Laissez la magie opérer</h1>
+                        <h5 class="fs-5 card-text fw-medium text-center fst-italic text-primary">Notre vidéo sur les coraux et les espèces</h5>
+                        <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga deserunt ratione neque quos odit libero voluptatibus, deleniti quas ab vero optio provident accusamus incidunt fugit saepe laborum dignissimos eveniet.</p>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-9 col-md-12 col-lg-9 mb-5 mx-5">
+                    <div>
+                        <video id="video-hover" src="/video/video_hover.mp4" type="video/mp4" loop class="hover-to-play w-100"></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container espace-top">
+            <h2 class=" fs-2 card-title text-center mb-5">Nos photographies</h2>
+            <div class="d-flex justify-content-center">
+                <div class="col-9 col-sm-9 col-md-9 col-xl-6 d-flex justify-content-center">
+                    <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga deserunt ratione neque quos odit libero voluptatibus, deleniti quas ab vero optio provident accusamus incidunt fugit saepe laborum dignissimos eveniet.</p>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="row g-0 justify-content-center mx-3">
+                    <img class="img-fluid col-6 col-xl-3" src ="img/mosaique/mosaique-1.png" alt="coraux de la Désirade">
+                    <img class="img-fluid col-6 col-xl-3" src ="img/mosaique/mosaique-2.png" alt="Plongée en duo">   
+                    <img class="img-fluid col-6 col-xl-3" src ="img/mosaique/mosaique-3.png" alt="Snorkling">
+                    <img class="img-fluid col-6 col-xl-3" src ="img/mosaique/mosaique-4.png" alt="Surprise une tortue de mer">
+                </div>
+                <div class="row g-0 justify-content-center mx-3">
+                    <img class="img-fluid col-4 col-sm-4 col-md-4 col-xl-4" src ="img/mosaique/mosaique-5.png" alt="Multicouleurs">
+                    <img class="img-fluid col-4 col-sm-4 col-md-4 col-xl-4" src ="img/mosaique/mosaique-6.png" alt="Raie">
+                    <img class="img-fluid col-4 col-sm-4 col-md-4 col-xl-4" src ="img/mosaique/mosaique-7.png" alt="Plongée lumineuse">
+                </div>
+                <div class="row g-0 justify-content-center mx-3">
+                    <img class="img-fluid col-6 col-xl-3" src ="img/mosaique/mosaique-8.png" alt="Circuit des Iles Saintes">
+                    <img class="img-fluid col-6 col-xl-3" src ="img/mosaique/mosaique-9.png" alt="Snorkling à la plage de St Anne">
+                    <img class="img-fluid col-6 col-xl-3" src ="img/mosaique/mosaique-10.png" alt="Maîtrise parfaite">
+                    <img class="img-fluid col-6 col-xl-3" src ="img/mosaique/mosaique-11.png" alt="Circuit St Anne">
+                </div>
+            </div>
+        </section>
+        <section class="container espace-top espace-bottom">
+            <h2 class=" fs-2 card-title text-center mb-5">Nos experts plongeurs</h2>
+            <div class="row mt-5 d-flex justify-content-center">
+                <div class="col col-sm-12 col-md-12 col-lg-6 mb-3">
+                    <div>
+                        <p class="text-center mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga deserunt ratione neque quos odit libero voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-flex align-items-center h-100 mt-3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="card mask-custom  shadow-lg">
+                                <div class="card-body">
+                                    <div class="table-responsive rounded-4">
+                                        <table class="table table-borderless table-dark table-hover text-white mb-0">
+                                            <thead>
+                                                <tr>
+                                                <th class="px-3" scope="col">NOM</th>
+                                                <th scope="col">TITRE</th>
+                                                <th scope="col">NIVEAU</th>
+                                                <th scope="col">AGE</th>
+                                                <th scope="col">DISPONIBILITÉS</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img 
+                                                    class="rounded-circle ms-3" src="/img/photo_thumbnail/phil.png" alt="Phil" 
+                                                    style="width: 45px; height: 45px"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold text-primary mb-1">Phil</p>
+                                                        <p class="text-white mb-0">phil@divingclub.com</p>
+                                                    </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p class="fw-bold text-primary mb-1">Coordonnateur</p>
+                                                    <p class="text-white mb-0">Plongeur</p>
+                                                </td>
+                                                <td class="align-middle"><span class="badge badge-info">Expert</span></td>
+                                                <td class="align-middle">35</td>
+                                                <td class="align-middle"> 
+                                                    <a href="#" class="btn btn-outline-primary rounded-0">VOIR</a>
+                                                </td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img class="rounded-circle ms-3" src="/img/photo_thumbnail/alex.png" alt="Alex" style="width: 45px; height: 45px"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold text-primary mb-1">Alex</p>
+                                                        <p class="text-white mb-0">alex@divingclub.com</p>
+                                                    </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p class="fw-bold text-primary mb-1">Découvertes</p>
+                                                    <p class="text-white mb-0">Plongeur et consultant</p>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <span class="badge badge-info rounded-pill d-inline">Expert</span>
+                                                </td>
+                                                <td class="align-middle">28</td>
+                                                <td class="align-middle">
+                                                    <a href="#" class="btn btn-outline-primary rounded-0">VOIR</a>
+                                                </td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img 
+                                                    class="rounded-circle ms-3" src="/img/photo_thumbnail/jordan.png" alt="Jordan" 
+                                                    style="width: 45px; height: 45px"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold text-primary mb-1">Jordan</p>
+                                                        <p class="text-white mb-0">jordan@divingclub.com</p>
+                                                    </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p class="fw-bold text-primary mb-1">Coordonnateur</p>
+                                                    <p class="text-white mb-0">Plongeur</p>
+                                                </td>
+                                                <td class="align-middle"><span class="badge badge-info">Medium</span></td>
+                                                <td class="align-middle">30</td>
+                                                <td class="align-middle"> 
+                                                    <a href="#" class="btn btn-outline-primary rounded-0">VOIR</a>
+                                                </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+      <footer id="footer" class="border-top">
+        <div class="container text-center">
+			<div class="py-3">
+                <a href="#"><img src="/img/logo_diving_club.svg" alt="logo de Diving Club" class="logo"></a>
+            </div>
+			<div>
+				<a href="#"><img src="img/logo_facebook.png" alt="Logo Facebook"></a>
+				<a href="#"><img src="img/logo_linkedin.png" alt="Logo Linkedin"></a>
+				<a href="#"><img src="img/logo_twitter.png" alt="Logo Twitter"></a>
+				<a href="#"><img src="img/Logo_instagram.png" alt="Logo Instagram"></a>
+			</div>
+            <div class="row flex-sm-column flex-md-row my-3">
+                <div class="col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                    <a href="tel:+14181234567">
+                        <img src="img/icone_telephone.png" alt="Logo telephone">
+                        418-123-4567
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+                    <a href="mailto:cegep@troisrivieres.ca">
+                        <img src="img/logo_courriel.png" alt="Logo mail">
+                        com@divingclub.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body> 
 </html>
-
-
-
