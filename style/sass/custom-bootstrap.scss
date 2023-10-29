@@ -136,19 +136,19 @@ p {
 
   /* Personnalisation des Card Bootstrap*/
 
-.card {
+.zoom {
 background-color: $secondaire;
 transition: transform .8s;
 }
 
-.card:hover{
+.zoom:hover{
   -ms-transform: scale(1); /* IE 9 */
   -webkit-transform: scale(1); /* Safari 3-8 */
   transform: scale(1.15);
 }
 
 
-
+ /* Personnalisation tableau Bootstrap*/
 table td,
 table th {
   text-overflow: ellipsis;
@@ -167,18 +167,9 @@ table th {
 
 
 
-table td,
-table th {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
 
-.mask-custom {
-  background: rgba(24, 24, 16, .2);
-  border-radius: 2em;
-  backdrop-filter: blur(25px);
-  border: 2px solid rgba(255, 255, 255, 0.05);
-  background-clip: padding-box;
-  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+/* Personnalisation survol bouton fermeture des popups en général*/
+
+.survol:hover{
+  color: $primary !important;
 }
