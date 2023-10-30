@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./style/css/custom-bootstrap.css">
 	<link rel="stylesheet" href="./style/css/general.css" />
-	<link rel="icon" href="img/favicon.ico">
+	<link rel="icon" href="./img/favicons.ico">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
@@ -54,7 +54,7 @@
                 </div>
             </div>
         </section>
-        <section class="container espace-top">
+        <section id="photos" class="container espace-top">
             <h2 class=" fs-2 card-title text-center mb-5">Nos photographies</h2>
             <div class="d-flex justify-content-center">
                 <div class="col-9 col-sm-9 col-md-9 col-xl-6 d-flex justify-content-center">
@@ -82,7 +82,7 @@
             </div>
         </section>
         <section class="container espace-top espace-bottom">
-            <h2 class=" fs-2 card-title text-center mb-5">Nos experts plongeurs</h2>
+            <h2 id="experts" class=" fs-2 card-title text-center mb-5">Nos experts plongeurs</h2>
             <div class="row mt-5 d-flex justify-content-center">
                 <div class="col col-sm-12 col-md-12 col-lg-6 mb-3">
                     <div>
@@ -240,6 +240,59 @@
                         </div>
                         <div class="d-flex justify-content-center">
                             <a href="mailto:jordan@divingclub.ca" class="btn btn-outline-primary rounded-0 mb-4">CONTACTER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="popupTrigger" class="popup-trigger"></div>
+            <div id="popupscroll" class="popupscroll">
+                <div class="container">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="card popup-content-scroll bg-dark fade-in-popup" style="border-radius: 15px;">
+                                <div class="card-body p-5">
+                                    <button id="popupClose" class="bg-dark border-0 popup-close"><i class="bi bi-x-square survol" style="font-size: 20px; color:white;"></i></button>
+                                    <h2 class="text-center text primary mb-3">Inscrivez-vous à notre infolettre</h2>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="row col-12 mb-3">
+                                            <p class="text-center mb-4">Ne manquez pas nos actualités et d'autres informations sur les prochaines informations sur nos prochaines plongées sous-marines.</p>
+                                        </div>
+                                    </div>
+                                    <form class="needs-validation">
+                                        <div class="form-outline mb-5 text-start">
+                                            <label class="form-label text-white" for="name">Prénom</label>
+                                            <input type="text" id="name" class="form-control form-control-lg rounded-0" required/>
+                                        </div>
+                                        <div class="form-outline mb-5">
+                                            <label class="form-label text-white" for="lastname">Nom</label>
+                                            <input type="text" id="lastname" class="form-control form-control-lg rounded-0" required/>
+                                        </div>
+                                        <div class="form-outline mb-5">
+                                            <label class="form-label text-white" for="email">Votre adresse courriel</label>
+                                            <input type="email" id="email" class="form-control form-control-lg fst-italic fw-light rounded-0" placeholder="name@example.com" required/>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <button id="openPopupButtonI" class="px-3 btn btn-primary rounded-0" type="submit">S'INSCRIRE</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="confirmation" class="container row popup-du-tableau">
+                <div class="col-9 col-md-6 col-lg-4 popup-content bg-dark fade-in-popup rounded-4">
+                    <button id="popupCloseInscription" class="bg-dark border-0 popup-close"><i class="bi bi-x-square survol" style="font-size: 20px; color:white;"></i></button>
+                    <div class="px-5">
+                        <div class="mt-3 flex-column justify-content-center">
+                            <h2 class="text-center text primary mb-3">C'est parfait ainsi !</h2>
+                            <p class="text-center">Vous êtes désormais inscrit(e) à notre infolettre</p>
+                            <p class="text-center text-primary fw-bold mb-4">Vous serez ainsi informé(e) de nos actualités et de nos prochaines plongées sous-marines.</p>
                         </div>
                     </div>
                 </div>
