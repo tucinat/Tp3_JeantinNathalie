@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-  //Pour la ligne popup Jordan
+ //Pour la ligne popup Jordan
 
  document.addEventListener("DOMContentLoaded", function () {
   const openPopupButton = document.getElementById("openPopupButtonJ");
@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+
   // validation js qui provient de bootstrap pour le formulaire de l'infolettre
   (function () {
     'use strict'
@@ -136,13 +137,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   openPopupButton.addEventListener("click", function () {
       confirmationPopup.style.display = "block"; // Afficher la deuxième popup
-      popup.style.display = "none"; // Masquer la première popup de l'infolettre
-      
   });
 
   popupCloseInscription.addEventListener("click", function () {
       confirmationPopup.style.display = "none"; // Masquer la deuxième popup
   });
+  
 });
 
 
